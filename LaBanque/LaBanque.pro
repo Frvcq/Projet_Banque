@@ -18,5 +18,6 @@ HEADERS += \
 
 DISTFILES += \
     Documentation \
+    client.txt \
     compteBancaire.txt \
     compteEpargne.txt

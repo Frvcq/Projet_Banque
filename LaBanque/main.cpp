@@ -2,7 +2,14 @@
 #include "menu.h"
 #include "comptebancaire.h"
 #include "compteepargne.h"
+#include "compteclients.h"
+
+/**
+ *  @author Farvacque Flavian
+ *  @date 23 septembre 2021
+ */
 using namespace std;
+
 
 
 
@@ -70,7 +77,7 @@ int main()
     return 0;
 }
 */
-int main()
+/*int main()
 {
 
     try {
@@ -129,4 +136,48 @@ int main()
     }
 
     return 0;
+}
+*/
+
+int main()
+{
+    try {
+        int choix;
+        Menu leMenu("../LaBanque/client.txt");
+        CompteClients client1("Albert",1);
+
+        do {
+            choix = leMenu.Afficher();
+            switch (choix)
+            {
+            case 1:
+                client1.OuvrirCompteEpargne();
+                leMenu.AttendreAppuiTouche();
+                break;
+
+            case 2:
+
+                client1.GererCompteBancaire();
+                leMenu.AttendreAppuiTouche();
+                break;
+            case 3:
+                client1.GererCompteEpargne();
+                leMenu.AttendreAppuiTouche();
+                break;
+
+            }
+
+        }while(choix != 4);
+
+
+
+
+    } catch (Exception erreur) {
+        erreur.ObtenirMessage();
+        erreur.ObtenirCodeErreur();
+        exit(EXIT_FAILURE);
+    }
+
+
+return 0;
 }

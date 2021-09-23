@@ -1,4 +1,10 @@
 #include "comptebancaire.h"
+
+
+/**
+ *  @author Farvacque Flavian
+ *  @date 23 septembre 2021
+ */
 /**
  * @brief CompteBancaire::CompteBancaire
  * @details Constructeur par defaut

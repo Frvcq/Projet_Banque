@@ -1,4 +1,10 @@
 #include "compteepargne.h"
+
+/**
+ *  @author Farvacque Flavian
+ *  @date 23 septembre 2021
+ */
+
 /**
  * @brief CompteEpargne::CompteEpargne
  * @param _tauxInterets les taux d'interets en pourcentage
