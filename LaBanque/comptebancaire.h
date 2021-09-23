@@ -10,6 +10,10 @@ using namespace std;
 class CompteBancaire
 {
 protected:
+    /**
+     * @brief solde
+     * @details Le solde du compte bancaire
+     */
     float solde;
 public:
     CompteBancaire();
