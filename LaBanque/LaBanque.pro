@@ -4,4 +4,14 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        main.cpp
+        comptebancaire.cpp \
+        main.cpp \
+        menu.cpp
+
+HEADERS += \
+    comptebancaire.h \
+    menu.h
+
+DISTFILES += \
+    Documentation \
+    compteBancaire.txt
