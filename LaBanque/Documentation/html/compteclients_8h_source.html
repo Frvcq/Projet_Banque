@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>LaBanque:  Fichier source de /home/USERS/ELEVES/SNIR2020/ffarvacque/Documents/Projet_Banque/LaBanque/compteclients.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">LaBanque
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">CompteBancaire</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">/home/USERS/ELEVES/SNIR2020/ffarvacque/Documents/Projet_Banque/LaBanque/compteclients.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="compteclients_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef COMPTECLIENTS_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define COMPTECLIENTS_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="compteepargne_8h.html">compteepargne.h</a>&quot;</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="comptebancaire_8h.html">comptebancaire.h</a>&quot;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="class_compte_clients.html">    6</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_compte_clients.html">CompteClients</a></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="class_compte_clients.html#a2c307dc6f5f5fd6dd5a8df5cff0554c9">   13</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_compte_clients.html#a2c307dc6f5f5fd6dd5a8df5cff0554c9">nom</a>;</div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="class_compte_clients.html#ae94bf5d41d65038356c53a05e78e474f">   18</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="class_compte_clients.html#ae94bf5d41d65038356c53a05e78e474f">numero</a>;</div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_compte_clients.html#afc4295eba3ceee289df44859a8386b76">   23</a></span>&#160;    <a class="code" href="class_compte_bancaire.html">CompteBancaire</a> *<a class="code" href="class_compte_clients.html#afc4295eba3ceee289df44859a8386b76">compteBancaire</a>;</div><div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="class_compte_clients.html#a01232903e5c60620449442705d578f03">   28</a></span>&#160;    <a class="code" href="class_compte_epargne.html">CompteEpargne</a> *<a class="code" href="class_compte_clients.html#a01232903e5c60620449442705d578f03">compteEpargne</a>;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="class_compte_clients.html#af721b7da91a36887a9ec76e8866ecee2">CompteClients</a>(<span class="keywordtype">string</span> _nom,<span class="keywordtype">float</span> _numero);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="class_compte_clients.html#a6eb817b4a94060b5624eb0b7e8ea6c0a">~CompteClients</a>();</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_compte_clients.html#a976dbb4f772bfdf8aad9f7d96a7efb2a">OuvrirCompteEpargne</a>();</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_compte_clients.html#aec440ccee07455da85db22fc901ce1dd">GererCompteBancaire</a>();</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_compte_clients.html#aa26aeb33c18d98019e785f91d1934b05">GererCompteEpargne</a>();</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;};</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#endif // COMPTECLIENTS_H</span></div><div class="ttc" id="class_compte_clients_html_a6eb817b4a94060b5624eb0b7e8ea6c0a"><div class="ttname"><a href="class_compte_clients.html#a6eb817b4a94060b5624eb0b7e8ea6c0a">CompteClients::~CompteClients</a></div><div class="ttdeci">~CompteClients()</div><div class="ttdoc">CompteClients::~CompteClients. </div><div class="ttdef"><b>Definition:</b> compteclients.cpp:27</div></div>
+<div class="ttc" id="class_compte_clients_html_aa26aeb33c18d98019e785f91d1934b05"><div class="ttname"><a href="class_compte_clients.html#aa26aeb33c18d98019e785f91d1934b05">CompteClients::GererCompteEpargne</a></div><div class="ttdeci">void GererCompteEpargne()</div><div class="ttdoc">CompteClients::GererCompteEpargne. </div><div class="ttdef"><b>Definition:</b> compteclients.cpp:129</div></div>
+<div class="ttc" id="compteepargne_8h_html"><div class="ttname"><a href="compteepargne_8h.html">compteepargne.h</a></div></div>
+<div class="ttc" id="class_compte_clients_html_ae94bf5d41d65038356c53a05e78e474f"><div class="ttname"><a href="class_compte_clients.html#ae94bf5d41d65038356c53a05e78e474f">CompteClients::numero</a></div><div class="ttdeci">float numero</div><div class="ttdoc">numero </div><div class="ttdef"><b>Definition:</b> compteclients.h:18</div></div>
+<div class="ttc" id="class_compte_clients_html_a2c307dc6f5f5fd6dd5a8df5cff0554c9"><div class="ttname"><a href="class_compte_clients.html#a2c307dc6f5f5fd6dd5a8df5cff0554c9">CompteClients::nom</a></div><div class="ttdeci">string nom</div><div class="ttdoc">nom </div><div class="ttdef"><b>Definition:</b> compteclients.h:13</div></div>
+<div class="ttc" id="class_compte_clients_html_a976dbb4f772bfdf8aad9f7d96a7efb2a"><div class="ttname"><a href="class_compte_clients.html#a976dbb4f772bfdf8aad9f7d96a7efb2a">CompteClients::OuvrirCompteEpargne</a></div><div class="ttdeci">void OuvrirCompteEpargne()</div><div class="ttdoc">CompteClients::OuvrirCompteEpargne. </div><div class="ttdef"><b>Definition:</b> compteclients.cpp:43</div></div>
+<div class="ttc" id="class_compte_clients_html_af721b7da91a36887a9ec76e8866ecee2"><div class="ttname"><a href="class_compte_clients.html#af721b7da91a36887a9ec76e8866ecee2">CompteClients::CompteClients</a></div><div class="ttdeci">CompteClients(string _nom, float _numero)</div><div class="ttdoc">CompteClients::CompteClients. </div><div class="ttdef"><b>Definition:</b> compteclients.cpp:15</div></div>
+<div class="ttc" id="class_compte_clients_html"><div class="ttname"><a href="class_compte_clients.html">CompteClients</a></div><div class="ttdef"><b>Definition:</b> compteclients.h:6</div></div>
+<div class="ttc" id="class_compte_bancaire_html"><div class="ttname"><a href="class_compte_bancaire.html">CompteBancaire</a></div><div class="ttdef"><b>Definition:</b> comptebancaire.h:10</div></div>
+<div class="ttc" id="comptebancaire_8h_html"><div class="ttname"><a href="comptebancaire_8h.html">comptebancaire.h</a></div></div>
+<div class="ttc" id="class_compte_clients_html_aec440ccee07455da85db22fc901ce1dd"><div class="ttname"><a href="class_compte_clients.html#aec440ccee07455da85db22fc901ce1dd">CompteClients::GererCompteBancaire</a></div><div class="ttdeci">void GererCompteBancaire()</div><div class="ttdoc">CompteClients::GererCompteBancaire. </div><div class="ttdef"><b>Definition:</b> compteclients.cpp:71</div></div>
+<div class="ttc" id="class_compte_clients_html_afc4295eba3ceee289df44859a8386b76"><div class="ttname"><a href="class_compte_clients.html#afc4295eba3ceee289df44859a8386b76">CompteClients::compteBancaire</a></div><div class="ttdeci">CompteBancaire * compteBancaire</div><div class="ttdoc">compteBancaire </div><div class="ttdef"><b>Definition:</b> compteclients.h:23</div></div>
+<div class="ttc" id="class_compte_epargne_html"><div class="ttname"><a href="class_compte_epargne.html">CompteEpargne</a></div><div class="ttdef"><b>Definition:</b> compteepargne.h:6</div></div>
+<div class="ttc" id="class_compte_clients_html_a01232903e5c60620449442705d578f03"><div class="ttname"><a href="class_compte_clients.html#a01232903e5c60620449442705d578f03">CompteClients::compteEpargne</a></div><div class="ttdeci">CompteEpargne * compteEpargne</div><div class="ttdoc">compteEpargne </div><div class="ttdef"><b>Definition:</b> compteclients.h:28</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>
