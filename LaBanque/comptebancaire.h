@@ -18,7 +18,6 @@ protected:
 public:
     CompteBancaire();
     CompteBancaire(const float _solde);
-    ~CompteBancaire();
     void Deposer(const float _montant);
     bool Retirer(const float _montant);
     float ConsulterSolde();

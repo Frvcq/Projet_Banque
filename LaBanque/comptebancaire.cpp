@@ -26,16 +26,7 @@ CompteBancaire::CompteBancaire(const float _solde):
 
 }
 
-/**
- * @brief CompteBancaire::~CompteBancaire
- * @details Destructeur de la classe
- */
 
-
-CompteBancaire::~CompteBancaire()
-{
-
-}
 
 /**
  * @brief CompteBancaire::Deposer
